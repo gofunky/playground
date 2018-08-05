@@ -6,5 +6,6 @@ go:
 - 1.x
 
 script:
+- go get -u cloud.google.com/go/...
 - go build
 - go test -race -v ./...
