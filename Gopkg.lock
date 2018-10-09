@@ -2,7 +2,7 @@
 
 
 [[projects]]
-  digest = "1:b740732adec5969c1893a96126083d6888d6a7c80673010319041605931858d4"
+  digest = "1:5d7e1e707b8da800c440797e744834ad6024ad31ab3bad70fad7183f38d9d843"
   name = "cloud.google.com/go"
   packages = [
     "compute/metadata",
@@ -14,8 +14,8 @@
     "internal/version",
   ]
   pruneopts = ""
-  revision = "6cb29e61d96723a38dcac44d4c15c36744d96d07"
-  version = "v0.29.0"
+  revision = "dfffe386c33fb24c34ee501e5723df5b97b98514"
+  version = "v0.30.0"
 
 [[projects]]
   branch = "master"
