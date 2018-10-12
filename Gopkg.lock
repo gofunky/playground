@@ -134,7 +134,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:e577de0714b2661bad588dcfe261636494af41d6aaa669ef2afd06ccfc958f3f"
+  digest = "1:899227ac10efc560eec9699b47bdc7cde00d3922debaf241307bf48ece27eb60"
   name = "golang.org/x/tools"
   packages = [
     "go/ast/astutil",
@@ -143,7 +143,7 @@
     "internal/fastwalk",
   ]
   pruneopts = ""
-  revision = "a2b3f7f249e90c6fe7ca632df1cbbb6fd73c0cfa"
+  revision = "d3c6139142f2181b42a21db02903fafea6215674"
 
 [[projects]]
   branch = "master"
