@@ -2,20 +2,27 @@
 
 
 [[projects]]
-  digest = "1:5d7e1e707b8da800c440797e744834ad6024ad31ab3bad70fad7183f38d9d843"
+  digest = "1:3de22f0e7208f2e7fb8662fcab0aee360e3cae85d5f3649f3bf0b247f575d183"
   name = "cloud.google.com/go"
   packages = [
     "compute/metadata",
     "datastore",
     "internal",
-    "internal/atomiccache",
     "internal/fields",
     "internal/trace",
     "internal/version",
   ]
   pruneopts = ""
-  revision = "dfffe386c33fb24c34ee501e5723df5b97b98514"
-  version = "v0.30.0"
+  revision = "f52f9bc132541d2aa914f42100c36d10b1ef7e0c"
+  version = "v0.37.0"
+
+[[projects]]
+  digest = "1:4cda3ef1024370f3cf7c0da06f7174a79887bf387d7b0d4acdb15df0ed3c206e"
+  name = "contrib.go.opencensus.io/exporter/stackdriver"
+  packages = ["propagation"]
+  pruneopts = ""
+  revision = "0e2df90c35d1575910dc0a44da7d7b08ae76290f"
+  version = "v0.9.1"
 
 [[projects]]
   branch = "master"
@@ -43,12 +50,15 @@
   version = "v1.1.0"
 
 [[projects]]
-  digest = "1:e097a364f4e8d8d91b9b9eeafb992d3796a41fde3eb548c1a87eb9d9f60725cf"
+  digest = "1:55c1b46a80db2baf4d762c1d0b5cb4946e46125baa02b8959310abab15b54aee"
   name = "github.com/googleapis/gax-go"
-  packages = ["."]
+  packages = [
+    ".",
+    "v2",
+  ]
   pruneopts = ""
-  revision = "317e0006254c44a0ac427cc52a0e083ff0b9622f"
-  version = "v2.0.0"
+  revision = "c8a15bac9b9fe955bd9f900272f9a306465d28cf"
+  version = "v2.0.3"
 
 [[projects]]
   digest = "1:eb3da47361162f0ad991ddf391e6dc03e23889201d76046e2917687b84977aee"
@@ -58,6 +68,8 @@
     "internal",
     "internal/tagencoding",
     "plugin/ocgrpc",
+    "plugin/ochttp",
+    "plugin/ochttp/propagation/b3",
     "stats",
     "stats/internal",
     "stats/view",
@@ -152,10 +164,13 @@
   packages = [
     "googleapi",
     "googleapi/internal/uritemplates",
+    "googleapi/transport",
     "internal",
     "iterator",
     "option",
+    "transport",
     "transport/grpc",
+    "transport/http",
   ]
   pruneopts = ""
   revision = "d089d6ac97131b2ee652f2fe736865338659a668"
