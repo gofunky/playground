@@ -19,11 +19,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:339bac0d398920a11fd7e8a7fbd4f133d4edd4faa1c2cbaba256d3684a266019"
+  digest = "1:f3ae35eb2933cb4f4e26b67e53fa5e09a444f2c91e5611336b2c9be50fd4b161"
   name = "github.com/bradfitz/gomemcache"
   packages = ["memcache"]
   pruneopts = ""
-  revision = "bc664df9673713a0ccf26e3b55a673ec7301088b"
+  revision = "551aad21a6682b95329c1f5bd62ee5060d64f7e8"
 
 [[projects]]
   digest = "1:f958a1c137db276e52f0b50efee41a1a389dcdded59a69711f3e872757dab34b"
