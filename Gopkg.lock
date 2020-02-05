@@ -134,16 +134,20 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:e577de0714b2661bad588dcfe261636494af41d6aaa669ef2afd06ccfc958f3f"
+  digest = "1:83c98e27ddd86f5dd46f8e7e3a6af7a3c6287b7d65c204429184f9bbaeb33600"
   name = "golang.org/x/tools"
   packages = [
     "go/ast/astutil",
     "godoc/static",
     "imports",
     "internal/fastwalk",
+    "internal/gopathwalk",
+    "internal/imports",
+    "internal/module",
+    "internal/semver",
   ]
   pruneopts = ""
-  revision = "a2b3f7f249e90c6fe7ca632df1cbbb6fd73c0cfa"
+  revision = "67a4523381ef904fe70f6cc4b54cf1baad90d21a"
 
 [[projects]]
   branch = "master"
