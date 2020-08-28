@@ -71,6 +71,17 @@
   version = "v0.14.0"
 
 [[projects]]
+  digest = "1:ba49944a3238ae8f163c85b6d01d2db51cd5b09807105a3cfaacbd414744ca82"
+  name = "golang.org/x/mod"
+  packages = [
+    "module",
+    "semver",
+  ]
+  pruneopts = ""
+  revision = "859b3ef565e237f9f1a0fb6b55385c497545680d"
+  version = "v0.3.0"
+
+[[projects]]
   branch = "master"
   digest = "1:67c2d940f2d5c017ef88e9847709dca9b38d5fe82f1e33fb42ace515219f22f1"
   name = "golang.org/x/net"
@@ -134,16 +145,34 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:e577de0714b2661bad588dcfe261636494af41d6aaa669ef2afd06ccfc958f3f"
+  digest = "1:7401ec33d0be09759647eab654fb944926282fb60593b47b0cda048d7bd7be27"
   name = "golang.org/x/tools"
   packages = [
     "go/ast/astutil",
     "godoc/static",
     "imports",
+    "internal/event",
+    "internal/event/core",
+    "internal/event/keys",
+    "internal/event/label",
     "internal/fastwalk",
+    "internal/gocommand",
+    "internal/gopathwalk",
+    "internal/imports",
   ]
   pruneopts = ""
-  revision = "a2b3f7f249e90c6fe7ca632df1cbbb6fd73c0cfa"
+  revision = "97019fc2e64bf4a3665a88c9d1a5f60fb46374af"
+
+[[projects]]
+  branch = "master"
+  digest = "1:a5a7a1a9560c0eb1f8b32c40da2e71bd2a05b9ff9e1ea294461c7dbe0d24c6bc"
+  name = "golang.org/x/xerrors"
+  packages = [
+    ".",
+    "internal",
+  ]
+  pruneopts = ""
+  revision = "5ec99f83aff198f5fbd629d6c8d8eb38a04218ca"
 
 [[projects]]
   branch = "master"
